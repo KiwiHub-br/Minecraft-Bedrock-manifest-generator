@@ -23,8 +23,8 @@ Important : please use a computer or a device with a screen large enough to prop
   
   Programme créé par @briec repl.it<br/>
   code created by @briec from repl.it<br/>
-  (dernière mise à jour : 11/08/2020)<br/>
-  (last update : 08-11-2020)<br/><br/>
+  (dernière mise à jour : 27/08/2020)<br/>
+  (last update : 08-27-2020)<br/><br/>
 
   Chaîne youtube - Youtube channel (KiwiHub) :<br/> 
   https://www.youtube.com/channel/UCMCACsSUCFLLH13q9T5enTA<br/><br/>
