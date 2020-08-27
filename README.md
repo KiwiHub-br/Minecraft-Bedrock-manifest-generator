@@ -10,7 +10,7 @@ Minecraft bedrock manifest generator : https://kiwihub-br.github.io/Minecraft-Be
 Important : please use a computer or a device with a screen large enough to properly operate the generator.
 
 #### Editing part :
-![alt text](https://github.com/KiwiHub-br/Minecraft-Bedrock-manifest-generator/blob/master/Capture_manifestgen_options.PNG?raw=true)<br/>
+![alt text](https://github.com/KiwiHub-br/Minecraft-Bedrock-manifest-generator/blob/master/Capture_manifestgen_option.PNG?raw=true)<br/>
 
 #### Display of the manifest on the right side after generating it :
 ![alt text](https://github.com/KiwiHub-br/Minecraft-Bedrock-manifest-generator/blob/master/Capture_manifestgen_result.PNG?raw=true)<br/>
