@@ -31,4 +31,4 @@ Important : please use a computer or a device with a screen large enough to prop
 
 ## License & copyright
 
-Licensed under the [MIT Lisence](LICENSE).
+Licensed under the [MIT License](LICENSE).
