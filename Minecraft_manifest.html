@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script src="generator_manifest_testjava.js"></script>
+	</head>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+		h1
+		{
+			font-family: 'Comfortaa', cursive;
+			font-size : 35px;
+			text-decoration: underline overline black;
+		}
+		.style_sub
+		{
+			position: fixed;
+  			top: 1%;
+  			right: 1%;
+  			font-size: 20px;
+		}
+	</style>
+
+	<body>
+		<h1>Minecraft Bedrock manifest generator</h1>
+
+		<p>UUID 1 : <span id="affichage_uuid_1"></span></p>
+		<p>UUID 2 : <span id="affichage_uuid_2"></span></p>
+
+		header/description :<br>
+		<textarea id="description_head" placeholder="Developed by ME, this is ..." rows="10" cols="60"></textarea>
+		<br>
+		header/name :<br>
+		<textarea id="name_head" placeholder="myRessource" rows="1" cols="50"></textarea>
+		<br>
+		version :<br>
+		<textarea id="version" placeholder="0,0,1" rows="1" cols="10"></textarea>
+		<br>
+		modules/description :<br>
+		<textarea id="description_module" placeholder="myRessource (version 0.0.1)" rows="1" cols="50"></textarea>
+		<br>
+		Number of subpacks (3 max) :<br>
+		<textarea id="subpacks_num" placeholder="0" rows="1" cols="5">0</textarea>
+		<br>
+
+		Subpack n°1 :<br>
+			<textarea id = "fname_1" placeholder="folder_name1"></textarea>
+			<textarea id = "name_sub1" placeholder="name1"></textarea>
+		<br>
+		Subpack n°2 :<br>
+			<textarea id = "fname_2" placeholder="folder_name2"></textarea>
+			<textarea id = "name_sub2" placeholder="name2"></textarea>
+		<br>
+		Subpack n°3 :<br>
+			<textarea id = "fname_3" placeholder="folder_name3"></textarea>
+			<textarea id = "name_sub3" placeholder="name3"></textarea>
+
+		<br>
+		<br>
+		<button type="button" onclick="get_textarea()">Generate manifest</button>
+
+		<div class = "style_sub">
+		<textarea id="manifest_txt" rows="50" cols="70" style="resize: none;"></textarea>
+		<br>
+  		<button id="btnDownload">Download as [manifest.json]</button>
+  		</div>
+
+
+  		<script type="text/javascript">
+  			const downloadToFile = (content, filename, contentType) => {
+  				const a = document.createElement('a');
+  				const file = new Blob([content], {type: contentType});
+  				a.href= URL.createObjectURL(file);
+  				a.download = filename;
+  				a.click();
+ 				URL.revokeObjectURL(a.href);
+			};
+
+			document.querySelector('#btnDownload').addEventListener('click', () => {
+  				const textArea = document.getElementById('manifest_txt');
+  				downloadToFile(textArea.value, 'manifest.json', 'text/plain');
+			});
+  		</script>
+
+	</body>
+</html>
