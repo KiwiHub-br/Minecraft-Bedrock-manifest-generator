@@ -7,6 +7,9 @@ Minecraft bedrock manifest generator : https://kiwihub-br.github.io/Minecraft-Be
 
 ### How to use it ?
 
+![alt text](https://github.com/KiwiHub-br/Minecraft-Bedrock-manifest-generator/blob/master/Capture_manifestgen_options.PNG?raw=true)<br/>
+
+
 ### CREDITS
   
   Programme créé par @briec repl.it<br/>
