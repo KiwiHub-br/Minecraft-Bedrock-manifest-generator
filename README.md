@@ -3,7 +3,7 @@
 
 ### The link
 
-Minecraft bedrock manifest generator : https://kiwihub-br.github.io/Minecraft-dynamic-circle-generator/<br/>
+Minecraft bedrock manifest generator : /<br/>
 
 ### How to use it ?
 
